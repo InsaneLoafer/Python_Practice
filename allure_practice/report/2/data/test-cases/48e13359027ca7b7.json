@@ -1,0 +1,75 @@
+{
+  "uid" : "48e13359027ca7b7",
+  "name" : "test_login_lostname",
+  "fullName" : "test_feature_story.TestLogin#test_login_lostname",
+  "historyId" : "3332fd7e933bac288761a907986839ca",
+  "time" : {
+    "start" : 1617534848093,
+    "stop" : 1617534848094,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "40a9db9eeb65b74a",
+      "name" : "stdout",
+      "source" : "40a9db9eeb65b74a.txt",
+      "type" : "text/plain",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "用户名缺失"
+  }, {
+    "name" : "suite",
+    "value" : "test_feature_story"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-UL20B91J"
+  }, {
+    "name" : "thread",
+    "value" : "14780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_feature_story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48e13359027ca7b7.json",
+  "parameterValues" : [ ]
+}

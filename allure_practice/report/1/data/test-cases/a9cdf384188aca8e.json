@@ -1,0 +1,52 @@
+{
+  "uid" : "a9cdf384188aca8e",
+  "name" : "test_success",
+  "fullName" : "test_allure#test_success",
+  "historyId" : "447d4fb47949f325e6c23d237e9d6d94",
+  "time" : {
+    "start" : 1617529914906,
+    "stop" : 1617529914907,
+    "duration" : 1
+  },
+  "description" : "this test succeeds",
+  "descriptionHtml" : "<p>this test succeeds</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-UL20B91J"
+  }, {
+    "name" : "thread",
+    "value" : "15036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9cdf384188aca8e.json",
+  "parameterValues" : [ ]
+}

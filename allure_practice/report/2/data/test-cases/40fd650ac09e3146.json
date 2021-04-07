@@ -1,0 +1,59 @@
+{
+  "uid" : "40fd650ac09e3146",
+  "name" : "test_login_failure",
+  "fullName" : "test_feature_story.TestLogin#test_login_failure",
+  "historyId" : "a58c5550e5c40eb80abda2e84e87077a",
+  "time" : {
+    "start" : 1617534848304,
+    "stop" : 1617534848305,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录失败"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_feature_story"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-UL20B91J"
+  }, {
+    "name" : "thread",
+    "value" : "14780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_feature_story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40fd650ac09e3146.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "2a7700692fef9f8f",
+        "parentUid" : "57a00934f1bd353362aa1d78642bc405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617534848075,
+          "stop" : 1617534848077,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57a00934f1bd353362aa1d78642bc405"
+    }, {
+      "name" : "登录失败",
+      "children" : [ {
+        "name" : "test_login_fail",
+        "uid" : "22142da13cbb6960",
+        "parentUid" : "e3ad7243d130097a0b853dba02afbe33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617534848084,
+          "stop" : 1617534848085,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_failure",
+        "uid" : "40fd650ac09e3146",
+        "parentUid" : "e3ad7243d130097a0b853dba02afbe33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617534848304,
+          "stop" : 1617534848305,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3ad7243d130097a0b853dba02afbe33"
+    }, {
+      "name" : "用户名缺失",
+      "children" : [ {
+        "name" : "test_login_lostname",
+        "uid" : "48e13359027ca7b7",
+        "parentUid" : "b4165c8b5def7321273500df2f4b899d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617534848093,
+          "stop" : 1617534848094,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4165c8b5def7321273500df2f4b899d"
+    }, {
+      "name" : "密码缺失",
+      "children" : [ {
+        "name" : "test_login_lostsec",
+        "uid" : "274c9abd69420f09",
+        "parentUid" : "773951a1a9bffe46ddf4de5e2dfdb86c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617534848101,
+          "stop" : 1617534848103,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "773951a1a9bffe46ddf4de5e2dfdb86c"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-UL20B91J",
+    "children" : [ {
+      "name" : "14780-MainThread",
+      "children" : [ {
+        "name" : "test_login_lostname",
+        "uid" : "48e13359027ca7b7",
+        "parentUid" : "b3ddd14c610ba63b24760c39743ffd00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617534848093,
+          "stop" : 1617534848094,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_failure",
+        "uid" : "40fd650ac09e3146",
+        "parentUid" : "b3ddd14c610ba63b24760c39743ffd00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617534848304,
+          "stop" : 1617534848305,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_fail",
+        "uid" : "22142da13cbb6960",
+        "parentUid" : "b3ddd14c610ba63b24760c39743ffd00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617534848084,
+          "stop" : 1617534848085,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_success",
+        "uid" : "2a7700692fef9f8f",
+        "parentUid" : "b3ddd14c610ba63b24760c39743ffd00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617534848075,
+          "stop" : 1617534848077,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_lostsec",
+        "uid" : "274c9abd69420f09",
+        "parentUid" : "b3ddd14c610ba63b24760c39743ffd00",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617534848101,
+          "stop" : 1617534848103,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3ddd14c610ba63b24760c39743ffd00"
+    } ],
+    "uid" : "71a90fc6f4b1d6ef5a19f51ded8aca89"
+  } ]
+}
