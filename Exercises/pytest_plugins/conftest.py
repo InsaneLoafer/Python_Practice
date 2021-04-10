@@ -9,18 +9,18 @@ import pytest
 import yaml
 
 
-def pytest_collection_modifyitems(session, config, items:List):
-    # 修改编码
-    for item in items:
-        item.name = item.name.encode('utf-8').decode('unicode-escape')
-        item._nodeid = item.nodeid.encode('utf-8').decode('unicode-escape')
-
-        # 如果login在测试用例路径中，则对其打标签
-        if "login" in item.nodeid:
-            item.add_marker(pytest.mark.login)
-
-    # 修改用例执行顺序，其中 items 就是所有用例列表
-    items.reverse()  # 倒序执行
+# def pytest_collection_modifyitems(session, config, items:List):
+#     # 修改编码
+#     for item in items:
+#         item.name = item.name.encode('utf-8').decode('unicode-escape')
+#         item._nodeid = item.nodeid.encode('utf-8').decode('unicode-escape')
+#
+#         # 如果login在测试用例路径中，则对其打标签
+#         if "login" in item.nodeid:
+#             item.add_marker(pytest.mark.login)
+#
+#     # 修改用例执行顺序，其中 items 就是所有用例列表
+#     items.reverse()  # 倒序执行
 
 # 添加一个命令行参数
 def pytest_addoption(parser):
