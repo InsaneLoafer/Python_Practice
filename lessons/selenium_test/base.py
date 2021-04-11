@@ -4,11 +4,22 @@
 # @Author   : InsaneLoafer
 # @File     : base.py
 from selenium import webdriver
+import os
 
 class Base:
 
     def setup(self):
-        self.driver = webdriver.Chrome()
+        """
+        处理多浏览器
+        :return:
+        """
+        browser = os.getenv("browser")
+        if browser == "firefox":
+            self.driver = webdriver.Firefox()
+        elif browser == "headless":
+            self.driver == webdriver.PhantomJS()
+        elif browser == "chrome":
+            self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(5)
 
