@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="1672712" name="v4.5R90F03接受性测试用例" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="1672713" name="数据处理类&gt;WEB能显示NTA攻击事件（持续中/结束）">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9484]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672715" name="数据处理类&gt;WEB能显示NTA上下行流量趋势图（平均值/峰值）">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9485]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672717" name="数据处理类&gt;WEB能显示ADS告警事件（持续中/结束）">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9486]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672719" name="数据处理类&gt;WEB能显示ADS-IN/DROP/OUT流量趋势（平均值/峰值）">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9487]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672721" name="数据处理类&gt;WEB能显示Guard-IN/DROP/OUT流量（平均值/峰值）">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9488]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672723" name="数据处理类&gt;WEB能显示Probe告警事件（持续中/结束）">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9489]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672725" name="数据处理类&gt;WEB能显示Probe-上下行流量趋势（平均值/峰值）">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9490]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672727" name="基础功能类&gt;APP登录测试（自助账号/管理账号）">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9491]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672729" name="基础功能类&gt;Protal登录测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9492]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672731" name="基础功能类&gt;Portal展示客户服务信息测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9493]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672733" name="基础功能类&gt;客户/服务/订单增删查">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9494]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672735" name="基础功能类&gt;系统账号/自助账号增删改查">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9495]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672737" name="基础功能类&gt;邮件功能正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9496]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+1、测试自助账号接收邮件情况<br />
+2、测试管理账号接收邮件情况				
+			]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672739" name="基础功能类&gt;通知功能正常">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9497]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+1、测试protal通知情况<br />
+2、测试运维门户通知情况				
+			]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672741" name="核心功能类&gt;手动启停NTA封堵/NTA BGP FlowSpec封堵测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9498]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[
+				
+各参数合法性输入测试				
+			]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672743" name="核心功能类&gt;自动启停NTA封堵">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9499]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672745" name="核心功能类&gt;自动启停NTA BGP FlowSpec封堵测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9500]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672747" name="核心功能类&gt;手动启停ADS封堵/ADS牵引测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9501]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672749" name="核心功能类&gt;自动启停ADS封堵测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9502]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672751" name="核心功能类&gt;自动启停ADS牵引测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9503]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672753" name="核心功能类&gt;手动启停UMC/Guard封堵测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9504]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672755" name="核心功能类&gt;自动启停UMC/Guard封堵测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9505]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672757" name="核心功能类&gt;报表模板导入导出功能测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9506]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1672759" name="核心功能类&gt;报表导出功能测试">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[9507]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[
+						
+手动导出						
+					]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[
+						
+定时发送						
+					]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[
+						
+UMC报表新增所有字段导出正常						
+					]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+
+<testcase internalid="1677780" name="基础功能类&gt;WEB登录测试">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[10200]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+<custom_fields>
+			<custom_field>
+			<name><![CDATA[自动化实现标识]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</testcase>
+</testsuite>

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# @Time     : 2021/4/8 13:06
-# @Author   : ZhangTao
+# @Time     : 2021/4/9 20:27
+# @Author   : InsaneLoafer
 # @File     : test_wait.py
 from time import sleep
 from selenium import webdriver
@@ -34,3 +34,20 @@ class TestWait:
         WebDriverWait(self.driver, 10).until(expec)
         self.driver.find_element_by_class_name("t c-title-en").click()
         print("hello")
+        self.driver.maximize_window()
+        self.driver.get('https://www.baidu.com')
+        self.driver.implicitly_wait(3)
+
+    def teardown(self):
+        self.driver.quit()
+
+    def test_wait1(self):
+        # 使用By.XPATH 或 By.ID 或 By.CSS_SELECTOR
+        # self.driver.find_element(By.XPATH, '//*[@id="kw"]').send_keys('selenium')
+        # self.driver.find_element(By.ID, 'kw').send_keys('selenium')
+        # 在输入框输入selenium
+        self.driver.find_element(By.CSS_SELECTOR, '#kw').send_keys('selenium')
+        # 点击百度一下进行搜索
+        self.driver.find_element(By.ID, 'su').click()
+        sleep(3)
+
