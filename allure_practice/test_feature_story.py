@@ -11,11 +11,13 @@ import allure
 @allure.feature('登录模块')
 class TestLogin():
 
+    @pytest.mark.run(order=1)
     @allure.story('登录成功')
     def test_login_success(self):
         print("这是登录：测试用例，登陆成功")
         pass
 
+    @pytest.mark.run(order=2)
     @allure.story('登录失败')
     def test_login_fail(self):
         print("这是登录：测试用例，登陆失败")
@@ -26,6 +28,7 @@ class TestLogin():
         print("用户名缺失")
         pass
 
+    @pytest.mark.run(order=-1)
     @allure.story('密码缺失')
     def test_login_lostsec(self):
 
@@ -40,6 +43,7 @@ class TestLogin():
             print("登录失败")
         pass
 
+    @pytest.mark.run(order=0)
     @allure.story("登录失败")
     def test_login_failure(self):
         pass
