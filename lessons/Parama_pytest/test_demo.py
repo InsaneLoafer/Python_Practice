@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time     : 2021/4/4 15:48
 # @Author   : InsaneLoafer
-# @File     : test_demo.py
+# @File     : test_remote.py
 import pytest
 import yaml
 

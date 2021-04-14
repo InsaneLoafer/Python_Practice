@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time     : 2021/4/9 12:30
 # @Author   : ZhangTao
-# @File     : test_demo.py
+# @File     : test_remote.py
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By

@@ -17,5 +17,5 @@ class TestContact:
 
         addmemberpage = self.index.goto_add_member()
         addmemberpage.add_member(name, account, phonenum)
-        result = addmemberpage.get_member()
-        assert name in result
+        result = addmemberpage.get_member(name)
+        assert result
