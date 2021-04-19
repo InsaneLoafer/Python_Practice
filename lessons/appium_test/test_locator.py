@@ -35,14 +35,18 @@ class TestLocator:
         2．点击搜索输入框
         3．向搜索输入框里面输入"阿里巴巴"
         4。在搜索结果里面选择"阿里巴巴"，然后进行点击
-        5．获取这只香港阿里巴巴的股价，并判断这只股价的价格 > 200
+        5．获取阿里巴巴的股价，并判断这只股价的价格 > 200
         """
 
         # 点击搜索框
         self.driver.find_element_by_id("com.xueqiu.android:id/home_search").click()
         # 输入搜索内容
         self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text").send_keys("阿里巴巴")
-
+        # 定位到第一个搜索结果
+        self.driver.find_element_by_xpath("//*[@resource-id='com.xueqiu.android:id/name' and @text='阿里巴巴").click()
+        # 获取到阿里巴巴股票的价格
+        current_price = float(self.driver.find_element_by_id("com. xueqiu.android:id/current_price").text)
+        assert current_price > 200
 
 if __name__ == '__main__':
     pytest.main()
