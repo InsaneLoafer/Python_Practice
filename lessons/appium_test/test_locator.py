@@ -5,7 +5,11 @@
 # @File     : test_locator.py
 import pytest
 from appium import webdriver
+from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.common.touch_action import TouchAction
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class TestLocator:
@@ -109,6 +113,25 @@ class TestLocator:
                                                          'scrollable(true).instance(0)).'
                                                          'scrollIntoView(new UiSelector().text("黑猫厅长").'
                                                          'instance(0));')
+
+    def test_wait(self):
+        # 点击搜索框
+        self.driver.find_element_by_id("com.xueqiu.android:id/home_search").click()
+        # 输入搜索内容
+        self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text").send_keys("阿里巴巴")
+        # 定位到第一个搜索结果
+        self.driver.find_element_by_xpath("//*[@resource-id='com.xueqiu.android:id/name' and @text='阿里巴巴").click()
+        self.driver.find_element_by_xpath("//*[contains(@resource-id, 'title_container')]//*[@text='股票']").click()
+        locator = (MobileBy.XPATH, "//*[@text='09988']/../../..//*[@resource-id='com.xueqiu.android:id/current_price']")
+        # 使用expected_conditions
+        WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(locator))
+        # 使用lambda表达式
+        ele = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*locator))
+        # ele = self.driver.find_element(*locator)
+        print(ele.text)
+        current_price = float(ele.text)
+        expected_price = 170
+        assert current_price > expected_price
 
 if __name__ == '__main__':
     pytest.main()

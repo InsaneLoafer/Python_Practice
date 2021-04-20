@@ -29,3 +29,4 @@ class TesetTouchAction:
         action = TouchAction(self.driver)
         action.press(x=244, y=374).wait(100).move_to(x=711, y=374).wait(100).move_to(x=1198, y=374).\
             wait(100).move_to(x=1198, y=865).wait(100).move_to(x=1198, y=1323).wait(100).release().perform()
+
