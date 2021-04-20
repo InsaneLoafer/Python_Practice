@@ -5,15 +5,17 @@
 # @File     : test_locator.py
 import pytest
 from appium import webdriver
+from appium.webdriver.common.touch_action import TouchAction
+
 
 class TestLocator:
     def setup(self):
 
         desired_caps = {}
         desired_caps['platformName'] = 'Android'
-        desired_caps['platformVersion'] = '6.0'
+        # desired_caps['platformVersion'] = '6.0'
         desired_caps['deviceName'] = '127.0.0.1:7555'
-        desired_caps['appPackage'] = 'com.xueqiu.android '
+        desired_caps['appPackage'] = 'com.xueqiu.android'
         desired_caps['appActivity'] = 'com.xueqiu.android.common.MainActivity'
         desired_caps['noReset'] = 'true'
         # desired_caps['dontStopAppOnReset'] = "true"
@@ -21,6 +23,7 @@ class TestLocator:
         """当要输入中文时需要以下两个参数"""
         desired_caps['unicodeKeyBoard']='true'
         desired_caps['resetKeyBoard']='true'
+        desired_caps['adbExecTimeout'] = 500000
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
         # 隐式等待
         self.driver.implicitly_wait(5)
@@ -47,6 +50,34 @@ class TestLocator:
         # 获取到阿里巴巴股票的价格
         current_price = float(self.driver.find_element_by_id("com. xueqiu.android:id/current_price").text)
         assert current_price > 200
+
+    def test_search1(self):
+        element = self.driver.find_element_by_id("com.xueqiu.android:id/tv_search")
+        search_enabled = element.is_enabled()
+        print(element.text)
+        print(element.location)
+        print(element.size)
+        if search_enabled == True:
+            element.click()
+            self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text").send_keys("alibaba")
+            alibaba_element = self.driver.find_element_by_xpath("//*[@resource-id ='com.xueqiu.android:id/name' and @text='阿里巴巴']").click()
+            element_displayed = alibaba_element.get_attribute("displayed")
+            if element_displayed == "true":
+                print("搜索成功")
+            else:
+                print("搜索失败")
+
+    def test_touchaction(self):
+        action=TouchAction(self.driver)
+        # 获取当前屏幕的大小
+        width = self.driver.get_window_rect()['width']
+        height = self.driver.get_window_rect()['height']
+        x1 = int(width/2)
+        y_start = int(height * 4/5)
+        y_end = int(height * 1/5)
+        action.press(x=x1, y=y_start).wait(200).move_to(x=x1, y= y_end).release().perform()
+
+
 
 if __name__ == '__main__':
     pytest.main()
