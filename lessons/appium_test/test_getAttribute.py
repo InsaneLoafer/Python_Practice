@@ -1,6 +1,7 @@
 #!/user/bin/env python
 # -*- coding: utf-8 -*-
 from appium import webdriver
+from hamcrest import *
 
 class TestLocator:
     def setup(self):
@@ -32,3 +33,6 @@ class TestLocator:
         print(search_ele.get_attribute("enabled"))
         print(search_ele.get_attribute("clickable"))
         print(search_ele.get_attribute("bounds"))
+        assert 'search' in search_ele.get_attribute("resource-id")
+
+
