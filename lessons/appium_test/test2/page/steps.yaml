@@ -1,0 +1,12 @@
+- by: id
+  locator: name
+  action: click
+
+- by: id
+  locator: name2
+  action: click
+
+- by: id
+  locator: name3
+  action: send
+  value: "{value}" # 代表可以从python的value变量中取值
