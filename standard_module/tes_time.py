@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time     : 2021/3/29 22:20
 # @Author   : ZhangTao
-# @File     : test_time.py
+# @File     : tes_time.py
 import time
 
 print(time.asctime())
