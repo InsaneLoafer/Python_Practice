@@ -5,10 +5,10 @@
 # @File     : tes_time.py
 import time
 
-print(time.asctime())
-print(time.localtime())
-print(time.time())
-print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+print(time.asctime()) # Tue May 25 14:43:58 2021
+print(time.localtime()) # time.struct_time(tm_year=2021, tm_mon=5, tm_mday=25, tm_hour=14, tm_min=43, tm_sec=58, tm_wday=1, tm_yday=145, tm_isdst=0)
+print(time.time()) # 1621925038.7708614
+print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())) # 2021-05-25 14:43:58
 
 # 获取两天前的时间
 now_time = time.time()

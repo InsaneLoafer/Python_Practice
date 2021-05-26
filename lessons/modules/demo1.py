@@ -18,4 +18,4 @@ import json
 #第三方开源模块
 
 import random
-open()
+# open()

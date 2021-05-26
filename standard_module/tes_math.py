@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # @Time     : 2021/3/29 22:45
 # @Author   : ZhangTao
-# @File     : test_math.py
+# @File     : tes_math.py
 import math
 
-print(math.ceil(3.19))
-print(math.floor(3.19))
-print(math.sqrt(9))
+print(math.ceil(3.19)) # 4
+print(math.floor(3.19)) # 3
+print(math.sqrt(9)) # 3.0

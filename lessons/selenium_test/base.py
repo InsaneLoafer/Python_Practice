@@ -17,7 +17,7 @@ class Base:
         if browser == "firefox":
             self.driver = webdriver.Firefox()
         elif browser == "headless":
-            self.driver == webdriver.PhantomJS()
+            self.driver = webdriver.PhantomJS()
         elif browser == "chrome":
             self.driver = webdriver.Chrome()
         self.driver.maximize_window()

@@ -5,7 +5,7 @@
 # @File     : test_dir.py
 import os
 
-# os.mkdir("testdir")     #在当前路径创建目录
+# os.mkdir("testdir")     # 在当前路径创建目录
 # print(os.listdir("./")) # 打印当前目录的文件
 # os.removedirs("testdir")# 删除文件
 # print(os.getcwd())      # 打印当前路径

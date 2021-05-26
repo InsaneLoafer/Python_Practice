@@ -1,0 +1,46 @@
+[{
+	"name": "TCP SYN Flooding",
+	"value": 314
+}, {
+	"name": "ICMP Misuse",
+	"value": 185
+}, {
+	"name": "UDP Flooding",
+	"value": 122
+}, {
+	"name": "ACK Flooding",
+	"value": 83
+}, {
+	"name": "Host IP Traffic",
+	"value": 69
+}, {
+	"name": "SSDP Amplification Attack",
+	"value": 68
+}, {
+	"name": "DNS Amplification Attack",
+	"value": 68
+}, {
+	"name": "NTP Amplification Attack",
+	"value": 35
+}, {
+	"name": "DNS query Flooding",
+	"value": 28
+}, {
+	"name": "NTP Attack Victim",
+	"value": 21
+}, {
+	"name": "ClDAP Amplification Attack",
+	"value": 17
+}, {
+	"name": "SSDP Flooding",
+	"value": 9
+}, {
+	"name": "TCP RST Flooding",
+	"value": 5
+}, {
+	"name": "Memcached Amplification Attack",
+	"value": 4
+}, {
+	"name": "TCP/23(DDoS)",
+	"value": 1
+}]
